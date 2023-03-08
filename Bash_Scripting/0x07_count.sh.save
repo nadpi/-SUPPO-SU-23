@@ -1,0 +1,2 @@
+#!/bin/sh
+A=$(echo "$PATH" | awk -F: '{ princho "$PATH" | awk -F: '{ print NF }'t NF }')
