@@ -1,9 +1,8 @@
 #!/bin/bash
+echo "Enter file name : "
 while :
 do
-    echo "Enter file name : "
     read input
-
     if [ -f $input ]
     then
         break

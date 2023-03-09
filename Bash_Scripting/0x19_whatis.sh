@@ -1,2 +1,2 @@
 #!/bin/bash
-cd -
+man cal
